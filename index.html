@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="src/FontAwesome/css/all.css">
+
+</head>
+<body class="pt-[35px] relative">
+    <header
+        id="header"
+        class="h-24 border-b border-bottomHead"
+      >
+        <div class="container">
+          <div
+            class="h-24 flex items-center fixed top-0 z-50 bg-white left-0 right-0 justify-around shadow-xl
+            sm:p-pagination md:p-pagination lg:p-0
+            sm:border-b-0
+            sm:h-unset
+            sm:flex-wrap-reverse"
+          >
+            <a
+              href="#"
+              class="toggle-menu mt-0.5 leading-none sm:block lg:hidden float-left
+              sm:mt-1 sm:mr-3 mb-3 ml-3"
+            > <i class="fa-solid fa-bars p-3 border-2"></i>
+            </a>
+            <div class="header-left relative flex items-center sm:float-left sm:mr-auto lg:float-none lg:mr-unset lg:mr-0">
+              <a
+                href="https://travelpedia.uk/"
+                class="logo hidden-xs mr-8 float-left no-underline outline-none bg-transparent max-w-20 max-h-91"
+              >
+                <img
+                  src="https://travelpedia.uk/wp-content/uploads/2022/03/TravelpediaUK_Logo_Tagline_CYMK-1.png"
+                  alt="Your number one traveling agency located in the UK"
+                />
+              </a>
+              <a
+                href="https://travelpedia.uk/"
+                class="logo hidden-lg hidden-md hidden-sm mr-8 float-left min-w-full hidden no-underline outline-none max-w-20 max-h-91"
+              >
+                <img
+                  src="https://travelpedia.uk/wp-content/uploads/2022/03/TravelpediaUK_Logo_Tagline_CYMK-1.png"
+                  alt="Your number one traveling agency located in the UK"
+                />
+              </a>
+              <nav id="st-main-menu" class="block">
+                <a
+                  href=""
+                  class="back-menu hidden no-underline outline-none"
+                >
+                  <i class="fa fa-angle-left"></i>
+                </a>
+                <ul
+                  id="main-menu"
+                  class="menu main-menu pl-0 mb-0 list-none mt-0 sm:hidden lg:block"
+                >
+                  <li id="menu-item-1405" class="inline-block">
+                    <a
+                      class="p-navText text-navSize font-textWeight block uppercase text-navColor "
+                      href="https://travelpedia.uk/flights/"
+                    >
+                      Flights
+                    </a>
+                  </li>
+                  <li id="menu-item-231" class="inline-block">
+                    <a
+                      class="p-navText text-navSize font-textWeight block uppercase text-navNextColor hover:text-navColor"
+                      href="https://travelpedia.uk/search"
+                    >
+                      Holidays
+                    </a>
+                  </li>
+                  <li id="menu-item-233" class="inline-block">
+                    <a
+                      class="p-navText text-navSize font-textWeight block uppercase text-navNextColor hover:text-navColor"
+                      href="https://travelpedia.uk/destinations/"
+                    >
+                      Destinations
+                    </a>
+                  </li>
+                  <li id="menu-item-217" class="inline-block">
+                    <a
+                      class="p-navText text-navSize font-textWeight block uppercase text-navNextColor hover:text-navColor"
+                      href="https://travelpedia.uk/about-us/"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li id="menu-item-668" class="inline-block">
+                    <a
+                      class="p-navText text-navSize font-textWeight block uppercase text-navNextColor hover:text-navColor"
+                      href="https://travelpedia.uk/contact/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+                <div class="advance-menu hidden">
+                  <a
+                    href=""
+                    class="login"
+                    data-toggle="modal"
+                    data-target="#st-login-form"
+                  >
+                    Login
+                  </a>
+
+                  <a
+                    href=""
+                    class="signup"
+                    data-toggle="modal"
+                    data-target="#st-register-form"
+                  >
+                    Sign Up
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div class="header-right md:p-navRight md:w-unset sm:w-full sm:p-0">
+              <ul class="st-list flex items-center mb-0 sm:flex-wrap md:flex-nowrap sm:items-center sm:justify-evenly">
+                <li class="st-header-links m-0 text-navSize mr-five font-textWeight1 inline-block pr-navRightPadding sm:border-0 md:border-r md:border-navRightBorder text-navNextColor">
+                  <a href="http://02081253700" target="_blank">
+                    <i class="fas mr-five fa-phone"></i>
+                    02081253700
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a
+                    href="https://www.facebook.com/Travelpedia.UK/"
+                    target="_blank"
+                  >
+                    <i class="fab mr-five fa-facebook-f "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a
+                    href="https://www.instagram.com/travelpediauk/"
+                    target="_blank"
+                  >
+                    <i class="fab mr-five fa-instagram "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a href="https://twitter.com/TravelpediaUK" target="_blank">
+                    <i class="fab mr-five fa-twitter "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a
+                    href="https://www.linkedin.com/company/travelpedia-uk"
+                    target="_blank"
+                  >
+                    <i class="fab mr-five fa-linkedin-in "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a
+                    href="https://www.pinterest.com/travelpediauk/_saved/"
+                    target="_blank"
+                  >
+                    <i class="fab mr-five fa-pinterest "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a
+                    href="https://www.tiktok.com/@travelpedia.uk"
+                    target="_blank"
+                  >
+                    <i class="fab mr-five fa-tiktok "></i>
+                  </a>
+                </li>
+                <li class="st-header-links m-0 text-navSize font-textWeight1 inline-block pr-navRightPadding text-navNextColor">
+                  <a href="https://wa.me/447511119008" target="_blank">
+                    <i class="fab mr-five fa-whatsapp "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="st-content-wrapper" class="search-result-page pb-[100px]">
+        <div class="st-breadcrumb hidden-xs p-5 border-b-[1px] sm:hidden md:block">
+            <div class="container w-w120 pr-[15px] pl-[15px] ml-auto mr-auto">
+                <ul class="inline-block list-none w-full mb-0 pl-0 bg-[#FFF]">
+                    <li class="relative inline-block pr-5 z-0">
+                      <a class="block font-textWeight1 text-textCumb leading-[21px]" href="https://travelpedia.uk">
+                        Home
+                      </a>
+                    </li>
+                    <li class="active relative inline-block pl-5 z-0 pr-0 text-textCumb2">
+                      Flights
+                    </li> 
+                  </ul>
+            </div>
+        </div>
+        <div class="container mx-auto">
+          <div class="st-blog p-stBlog sm:pt-8">
+              <div class="vc_row wpb_row st bg-holder">
+                <div class="container mx-auto pl-muoiLam pr-muoiLam">
+                    <div class="wpb_column column_container col-md-12 w-full">
+                      <div class="vc_column-inner wpb_wrapper m-auto">
+                        <div class="content-text padding-0">
+                          <div class="m-auto text-center">
+                            <a href="">
+                                <span class="text-navSize">
+                                  See our <strong>147</strong> reviews on
+                                </span> 
+                                <i class="fa-sharp fa-solid fa-star text-trustpilot">
+                                </i>
+                                <strong>Trustpilot</strong>
+                            </a>
+                          </div>
+                              <h2 class="text-center style-9 sm:text-xl font-textWeight relative leading-[42px] mb-10 mt-0 block text-3xl text-textCumb pb-[15px] after:bg-afterRed after:absolute after:h-[2px] after:w-20 bottom-0">
+                                Our Top Flight Destinations
+                              </h2>
+                              <div class="text-center style-9-content"></div>
+                          </div>
+                          <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                            <div class="wpb_wrapper">
+                          
+                          <div class="row1 grid lg:grid-cols-3 gap-x-7 sm:grid-cols-1 md:grid-cols-2">
+                            <div class="item1 ">
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link" href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/orlando4-1.jpg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5  after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px] ">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Orlando  <br>From £378</a>
+                                            </h4>
+                                        </div>
+                                 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link " href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/Mumbai-1.jpg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5 after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px]">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Mumbai  <br> From £389</a>
+                                            </h4>
+                                        </div>
+                                    <div class="desc  single"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link" href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/Manila-1.jpg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5 after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px]">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Manila <br>From £510</a>
+                                            </h4>
+                                        </div>
+                                    <div class="desc  single"></div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="item4" >
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link" href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/Las-Vegas-1.jpg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5 after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px]">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Las Vegas <br>From £488</a>
+                                            </h4>
+                                        </div>
+                                    <div class="desc  single"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item5" >
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link" href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/Dubai-1.jpg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5 after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px]">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Dubai  <br> From £369</a>
+                                            </h4>
+                                        </div>
+                                    <div class="desc  single"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item6" >
+                                <div class="destination-item mb-[30px]">
+                                    <div class="image relative overflow-hidden rounded-md">
+                                        <a class="st-link" href="#img-link">
+                                            <img src="https://travelpedia.uk/wp-content/uploads/2022/06/Cebu-1.jpeg" class="img-responsive rounded-md transition-all">
+                                        </a>
+                                        <div class="content absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[1] text-center w-[90%]">
+                                            <h4 class="title mb-0 text-2xl font-titleImage text-white uppercase mt-0 after:transition-all after:hover:scale-x-[1.4] after:content-[''] after:h-0.5 after:w-[50px] after:bg-white after:block after:m-auto after:mt-[15px]">
+                                                <a href="https://travelpedia.uk/flights/enquiry/">Cebu <br> From £530</a>
+                                            </h4>
+                                        </div>
+                                    <div class="desc  single">
+                                      
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="text-center h-full m-ReviewUsM max-w-750 relative">
+              <a href="" class="p-4  bg-white border border-[#00b67a] rounded-sm inline-block">
+                <span class="text-muoiSau inline-block align-bottom text-black">
+                  Review us
+                  <span class="inline">on</span>
+                </span>
+                <div class="inline-block align-bottom m-ReviewUsM">
+                  <div class=" border-0 m-0 p-0 align-baseline flex relative">
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-sharp fa-solid fa-star text-[#00b67a]"></i>
+                    <p class="font-bold p-0 m-0">Trustpilot</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center block mb-5 text-white ">
+              <a href="" class="p-EnquiryNow bg-[#e73a42] font-semibold uppercase text-muoiSau rounded-md
+              inline-block mb-0 text-center align-middle cursor-pointer border box-border select-none decoration-0 relative top-0 transition-all shadow-none">
+                Enquiry Now
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>    
+
+    <footer class="border-b border-[#EAEEF3] text-xs bg-[#13408B] text-white pb-0">
+      <div class="m-[unset] w-full pr-0 mt-[35px] ">
+        <div class="container p-[35px] mx-auto">
+          <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 sm:text-center md:text-center lg:text-left gap-3 ">
+            <div class="mb-0">
+              <div class="mb-[35px] pl-5">
+                <h3 class="text-[24px] leading-[1.1] font-medium mt-5 mb-[10px]"><strong>Need Help?</strong></h3>
+                <p><strong>Use our live chat</strong></p>
+                <p><strong>Call us</strong></p>
+                <p>02081253700</p>
+                <p><strong>Email Us</strong></p>
+                <p>info@travelpedia.uk</p>
+              </div>
+            </div>
+            <div class="mb-0">
+              <div class="mb-[35px] pl-5 !leading-[1]">
+                <h3 class="text-[24px] leading-[1.1] font-medium mt-5 mb-[10px]"><strong>Sitemap</strong></h3>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">Home</a></p>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">Flights</a></p>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">Holiday</a></p>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">Destinations</a></strong></p>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">About us</a></p>
+                <p><a href="" class="text-[#CADEFF] underline uppercase">Contact</a></p>
+              </div>
+            </div>
+            <div class="mb-0">
+              <div class="mb-[35px]">
+                <h3 class="text-[24px] leading-[1.1] font-medium mt-5 mb-[10px]"><strong>Newsletter</strong></h3>
+                <p class="m-pFooter">Join our newsletter to be informed about offers and news.</p>
+              </div>
+              <div class="mb-[35px]">
+                <form class="m-formFooter" action="">
+                  <div class="relative">
+                    <div class="mb-[15px]">
+                      <input placeholder="Your email address" type="email"
+                        class="form-control max-w-none min-h-[32px] w-full h-[55px] leading-[53px] text-navSize shadow-none border-[#D7DCE3] block box-border cursor-auto align-baseline bg-white p-pFooter transition-all rounded" required>
+                      <input type="submit" value="Subscribe"
+                        class="uppercase p-formSearch bg-[#E73A42] border-0 rounded-r absolute top-0 right-0 h-14 leading-[55px] text-white pl-[26px] pr-[26px] font-textWeight">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m-[unset] w-full pr-0">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1">
+            <div class="ext-center text-left">
+              <div class="mb-[35px] leading-none">
+                <p>
+                  <span class="text-[10.667px] mb-0">
+                    <strong>TRAVEL AWARE - STAYING SAFE AND HEALTHY ABROAD</strong>
+                  </span>
+                </p>
+                <p>
+                  <span class="text-[10.667px] mb-0 ">
+                    <img sizes="(max-width: 50px) 100vw, 50px" src="src/Image/logopage.png"
+                      class="m-logo float-right" alt="" width="50" height="46" loading="lazy" decoding="async">
+                    The Foreign, Commonwealth and Development Office and National Travel, Health Network and Centre have up to
+                    date advice on staying safe and healthy abroad. For the latest travel advice from the Foreign,
+                    Commonwealth and Development Office including security and local laws, plus passport and visa information
+                    please visit <a href="https://www.gov.uk/travelaware" target="_blank"
+                      rel="noopener" class="text-[#CADEFF] underline">www.gov.uk/travelaware</a> and follow<a href="https://twitter.com/FCDOtravelGovUK"
+                      target="_blank" rel="noopener" class="text-[#CADEFF] underline" class="text-[#CADEFF] underline"> @FCDOtravelGovUK</a> and <a href="https://www.facebook.com/fcdotravel/"
+                      target="_blank" rel="noopener" class="text-[#CADEFF] underline">facebook.com/fcdotravel</a>. More information is available <a
+                      href="https://www.virginholidays.co.uk/holiday-information/things-you-need-to-know/overview" class="text-[#CADEFF] underline">here</a>.
+                    Keep informed of current travel health news by visiting <a href="http://www.travelhealthpro.org.uk/"
+                      target="_blank" rel="noopener" class="text-[#CADEFF] underline">www.travelhealthpro.org.uk</a>. Do check before you book and regularly
+                    before you travel for updates as the advice can change.
+                  </span>
+                </p>
+              </div>
+              <div class="ml-auto mr-auto w-full flex">
+                <span class="w-full h-px relative flex-auto min-w-[10%]">
+                  <span class="border-[#fff] h-px border-t border-t-[#ebebeb] block relative top-px w-full">
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="relative left-0 box-border m-unset w-full pr-none transition-opacity">
+              <div class="container m-auto">
+                <div class="grid grid-cols-1 w-full float-left">
+                  <div class="pr-0 pl-0">
+                    <div class="bg-[url('/src/Image/logos.png')] h-[70px] bg-no-repeat bg-center bg-contain">
+                    </div>
+                    <div class="mt-[35px] mb-0">
+                      <div class="mb-0">
+                        <p class="text-left mb-0 ">
+                          Copyright © 2022 by <a class="st-link text-[#CADEFF] underline"
+                            href="https://travelpedia.uk/?customize_changeset_uuid=e9d16347-980d-47c1-a743-349032cc5d07&amp;customize_messenger_channel=preview-0&amp;customize_autosaved=on">
+                            Travelpedia
+                            UK</a> | <a href="https://travelpedia.uk/privacy-policy/" class="text-[#CADEFF] underline">Privacy Policy</a> | <a
+                            href="https://travelpedia.uk/terms-conditions/" class="text-[#CADEFF] underline">Terms&amp;Conditions</a>.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
